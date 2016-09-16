@@ -1,0 +1,217 @@
+html{
+	background: url(bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+
+body {
+	text-align: center;
+	font-family: 'Philosopher', sans-serif;
+
+}
+ul {
+    list-style-type: none;
+    margin-top: -30px;
+	text-align: center;
+    background-color: #000000;
+    font-family: 'Philosopher', sans-serif;
+    display: inline-block;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #E6DD3D;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #E6DD3D;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+h1{
+	margin-top: -10px;
+	text-align: center;
+	font-family: BatmanForeverAlternate;
+	font-size: 50pt;
+	color: black;
+	-webkit-text-fill-color: yellow;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+}
+h2{
+	margin-top: -50px;
+	text-align: center;
+	font-family: 'Philosopher', sans-serif;
+	font-size: 50pt;
+	color: black;
+	-webkit-text-fill-color: #A60000;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+}
+
+h4{
+	display: inline-block;
+	text-align: center;
+	font-size: 20pt;
+	color: white;
+	font-family: 'Philosopher', sans-serif;
+	margin-top: 20px;
+	background: black;
+	background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	padding: 10px;
+	transition: height .5s;
+	-webkit-transition: height .5s;
+	-moz-transition: height .5s;
+}
+
+h6{
+	color: white;
+	font-size: 10px;
+}
+table{
+	width: 100%;
+	color: white;
+	font-family: 'Philosopher', sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	text-align: center;
+	background: black;
+	background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	padding: 10px;
+	transition: height .5s;
+	-webkit-transition: height .5s;
+	-moz-transition: height .5s;
+}
+.titledata{
+	text-align: left;
+	font-size: 14pt;
+}
+.title{
+	text-align: right;
+	font-size: 20pt;
+	padding-right: 100px;
+	font-weight: bold;
+}
+.list{font-size: 20pt;
+
+}
+img{
+	width: 150px;
+	height: 300px;
+}
+.ov{
+	text-align: center;
+	font-size: 16pt;
+	padding-bottom: 10px;
+}
+span {
+	padding-left: 10px;
+	display: table-cell;
+	vertical-align: middle;
+	font-family: 'Philosopher', sans-serif;
+}
+.hometitle{
+	font-family: 'Philosopher', sans-serif;
+	font-size: 16pt;
+	margin-left: auto;
+	margin-right: auto;
+}
+.nove{
+	display: inline;
+	width: 133px;
+	height: 200px;
+}
+.novel{
+	padding-top: 20px;
+	color: white;
+	font-family: 'Philosopher', sans-serif;
+	font-size: 16pt;
+	height: 50px;
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline;
+}
+.ital{
+	font-style: italic;
+}
+
+#container {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+	text-align: left;
+	color: white;
+	background: black;
+	background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	padding: 10px;
+	transition: height .5s;
+	-webkit-transition: height .5s;
+	-moz-transition: height .5s;
+	display: block;
+	font-family: 'Philosopher', none;
+}
+
+.overflow {
+    text-align: center;
+    font-size: 20pt;
+}
+.plogo{
+	display: inline;
+	width: 50px;
+	height: 50px;
+
+}
+.logo{
+	padding-top: 20px;
+	color: white;
+	font-family: 'Philosopher', sans-serif;
+	font-size: 14pt;
+	height: 50px;
+	line-height: 50px;
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
